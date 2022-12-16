@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Choco cooky", Monospace;
+  min-height: 100vh;
+}
+.InfoText1,.InfoText2,.InfoText3,.InfoText4,.InfoText5,.InfoText6,.InfoText7,.InfoText8,.TitleText1,.TitleText2
+{
+  position: absolute;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  color: 000000;
+  font-size: 22px;
+  width: 700px;
+
+	text-shadow: -1px 1px 0 #fff,
+				  1px 1px 0 #fff,
+				 1px -1px 0 #fff;
+				-1px -1px 0 #fff;
+}
+.InfoText1 {
+  top: 10%;
+  left: 1.5%;
+}
+
+.InfoText2 {
+  top: 65%;
+  right: 1.5%;
+  text-align: right;
+}
+
+.InfoText3 {
+  top: 105%;
+  left: 1.5%;
+}
+
+.InfoText4 {
+  top: 160%;
+  right: 1.5%;
+  text-align: right;
+}
+
+.InfoText5 {
+  top: 205%;
+  left: 1.5%;
+}
+
+.InfoText6 {
+  top: 315%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+}
+
+.InfoText7 {
+  top: 362.5%;
+  left: 18.5%;
+  width: 80%;
+  text-align: right;
+}
+
+.TitleText1 {
+  top: 2.5%;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  text-align: center;
+}
+
+.TitleText2 {
+  top: 305%;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+.PhotoSun,.PhotoMercury, .PhotoVenus,.PhotoEarth,.PhotoMars,
+.PhotoJupiter,.PhotoSaturn,.PhotoUranus,.PhotoNeptune {
+  position: absolute;
+  cursor: grab;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.PhotoSun:active,.PhotoMercury:active, .PhotoVenus,.PhotoEarth:active,.PhotoMars:active,
+.PhotoJupiter:active,.PhotoSaturn:active,.PhotoUranus:active,.PhotoNeptune:active {
+  cursor: grabbing;
+}
+
+.PhotoSun {
+  top: 12.5%;
+  left: 70%;
+  width: 500px;
+}
+
+.PhotoMercury {
+  top: 70%;
+  left: 15%;
+  width: 50px;
+}
+
+.PhotoVenus {
+  top: 120%;
+  left: 80%;
+  width: 125px;
+}
+
+.PhotoEarth {
+  top: 165%;
+  left: 15%;
+  width: 130px;
+  cursor: grab;
+}
+
+.PhotoMars {
+  top: 210%;
+  left: 80%;
+  width: 80px;
+}
+
+.PhotoJupiter {
+  top: 270%;
+  left: 18%;
+  width: 300px;
+}
+
+.PhotoSaturn {
+  top: 277%;
+  left: 32%;
+  width: 500px;
+}
+
+.PhotoUranus {
+  top: 285%;
+  left: 57%;
+  width: 150px;
+}
+
+.PhotoNeptune {
+  top: 285%;
+  left: 67%;
+  width: 170px;
+}

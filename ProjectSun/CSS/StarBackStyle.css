@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sections */
+StarsBackground {
+  position: relative;
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+StarsBackground .starOne{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 50%;
+  animation: backgroundmove1 250s linear infinite;
+  pointer-events: none;
+}
+
+StarsBackground .starTwo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 50%;
+  animation: backgroundmove2 250s linear infinite;
+  pointer-events: none;
+}
+
+StarsBackground .starThree {
+  position: absolute;
+  top: 200%;
+  left: 0px;
+  width: 50%;
+  height: 50%;
+  animation: backgroundmove1 250s linear infinite;
+  pointer-events: none;
+}
+
+StarsBackground .starFour {
+  position: absolute;
+  top: 200%;
+  left: 0px;
+  width: 50%;
+  height: 50%;
+  animation: backgroundmove2 250s linear infinite;
+  pointer-events: none;
+}
+
+/* StarsAnim1 */
+StarsBackground .starOne.stars1 {
+  background: url(../Photos/Stars/stars1.png);
+  animation-delay: 0s;
+}
+
+StarsBackground .starTwo.stars2 {
+  background: url(../Photos/Stars/stars2.png);
+  animation-delay: -3s;
+}
+
+StarsBackground .starOne.stars3 {
+  background: url(../Photos/Stars/stars3.png);
+  animation-delay: -6s;
+}
+
+StarsBackground .starTwo.stars4 {
+  background: url(../Photos/Stars/stars4.png);
+  animation-delay: -9s;
+}
+
+StarsBackground .starOne.stars5 {
+  background: url(../Photos/Stars/stars5.png);
+  animation-delay: -12s;
+}
+
+/*StarsAnim2*/
+
+StarsBackground .starThree.stars1 {
+  background: url(../Photos/Stars/stars1.png);
+  animation-delay: 1s;
+}
+
+StarsBackground .starFour.stars2 {
+  background: url(../Photos/Stars/stars2.png);
+  animation-delay: -4s;
+}
+
+StarsBackground .starThree.stars3 {
+  background: url(../Photos/Stars/stars3.png);
+  animation-delay: -7s;
+}
+
+StarsBackground .starFour.stars4 {
+  background: url(../Photos/Stars/stars4.png);
+  animation-delay: -10s;
+}
+
+StarsBackground .starThree.star5 {
+  background: url(../Photos/Stars/stars5.png);
+  animation-delay: -13s;
+}
+
+/* Animations */
+/* @keyframes InAndOut {
+  0% {
+    opacity: 0;
+  }
+
+  /* 10%,
+  20%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%  {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+} */
+
+/* @keyframes In {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 0.1;
+  }
+  2% {
+    opacity: 0.2;
+  }
+  3% {
+    opacity: 0.3;
+  }
+  4% {
+    opacity: 0.4;
+  }
+  5% {
+    opacity: 0.5;
+  }
+
+  10%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Out {
+  0%,
+  50%,
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+} */
+
+@keyframes backgroundmove1 {
+  0% {
+    transform: scale(1.1);
+    opacity: 0.1;
+  }
+
+  5% {
+    opacity: 0.25;
+  }
+
+  10% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  20% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes backgroundmove2 {
+  0% {
+    transform: scale(2);
+    opacity: 0.1;
+  }
+
+  5% {
+    transform: scale(1.95);
+    opacity: 0.25;
+  }
+
+  10% {
+    transform: scale(1.85);
+    opacity: 0.5;
+  }
+
+  20% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+
+  30% {
+    transform: scale(1.6);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.45);
+    opacity: 1.25;
+  }
+
+  90% {
+    transform: scale(1.3);
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
